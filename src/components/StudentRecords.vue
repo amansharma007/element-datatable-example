@@ -21,6 +21,36 @@ export default {
         },
         {
           name: "Janet"
+        },
+        {
+          name: "Rami"
+        },
+        {
+          name: "Sylvestor"
+        },
+        {
+          name: "Gweneth"
+        },
+        {
+          name: "Rakesh"
+        },
+        {
+          name: "Amitabh"
+        },
+        {
+          name: "Rosy"
+        },
+        {
+          name: "Rhea"
+        },
+        {
+          name: "Sailesh"
+        },
+        {
+          name: "Rohit"
+        },
+        {
+          name: "Alan"
         }
       ]
     };
