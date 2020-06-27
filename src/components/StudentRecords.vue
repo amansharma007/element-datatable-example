@@ -17,6 +17,14 @@
             <el-table-column prop="address" label="Address"></el-table-column>
             <el-table-column prop="zip" label="Zip"></el-table-column>
           </el-table-column>
+          <el-table-column prop="tag" label="Tag" width="120">
+            <template slot-scope="scope">
+              <el-tag
+                :type="scope.row.tag === 'Employed' ? 'success' : 'primary'"
+                disable-transitions
+              >{{scope.row.tag}}</el-tag>
+            </template>
+          </el-table-column>
         </el-table>
       </el-col>
     </el-row>

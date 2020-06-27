@@ -6,6 +6,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
   {
     name: "Janet",
@@ -14,6 +15,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Rami",
@@ -22,6 +24,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Sylvestor",
@@ -30,6 +33,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Gweneth",
@@ -38,6 +42,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
   {
     name: "Rakesh",
@@ -46,6 +51,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Amitabh",
@@ -54,6 +60,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Rosy",
@@ -62,6 +69,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
   {
     name: "Rhea",
@@ -70,6 +78,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Unemployed'
   },
   {
     name: "Sailesh",
@@ -78,6 +87,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
   {
     name: "Rohit",
@@ -86,6 +96,7 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
   {
     name: "Alan",
@@ -94,5 +105,6 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
+    tag: 'Employed'
   },
 ];
