@@ -2,7 +2,7 @@
   <div>
     <el-row>
       <el-col>
-        <el-table :data="studentsData">
+        <el-table :data="studentsData" height="400">
           <el-table-column prop="name" label="Name"></el-table-column>
         </el-table>
       </el-col>
