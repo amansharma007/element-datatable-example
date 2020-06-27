@@ -2,7 +2,8 @@
   <div>
     <el-row style="border: 1px solid lightgray;">
       <el-col>
-        <el-table :data="studentsData" height="400">
+        <el-table :data="studentsData" @selection-change="handleSelectionChange" height="400">
+          <el-table-column type="selection"></el-table-column>
           <el-table-column prop="name" label="Name"></el-table-column>
           <el-table-column label="Address Details">
             <el-table-column prop="state" label="State"></el-table-column>
@@ -23,8 +24,14 @@ export default {
   name: "StudentRecords",
   data() {
     return {
-      studentsData: STUDENTS_DATA
+      studentsData: STUDENTS_DATA,
+      selectedStudents: []
     };
+  },
+  methods: {
+    handleSelectionChange(val) {
+      this.selectedStudents = val
+    }
   }
 };
 </script>
