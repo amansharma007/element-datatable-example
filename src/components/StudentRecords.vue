@@ -4,6 +4,7 @@
       <el-col>
         <el-table :data="studentsData" height="400">
           <el-table-column prop="name" label="Name"></el-table-column>
+
         </el-table>
       </el-col>
     </el-row>
@@ -11,48 +12,13 @@
 </template>
 
 <script>
+import { STUDENTS_DATA } from '../data/students_data.js'
+
 export default {
   name: "StudentRecords",
   data() {
     return {
-      studentsData: [
-        {
-          name: "John"
-        },
-        {
-          name: "Janet"
-        },
-        {
-          name: "Rami"
-        },
-        {
-          name: "Sylvestor"
-        },
-        {
-          name: "Gweneth"
-        },
-        {
-          name: "Rakesh"
-        },
-        {
-          name: "Amitabh"
-        },
-        {
-          name: "Rosy"
-        },
-        {
-          name: "Rhea"
-        },
-        {
-          name: "Sailesh"
-        },
-        {
-          name: "Rohit"
-        },
-        {
-          name: "Alan"
-        }
-      ]
+      studentsData: STUDENTS_DATA
     };
   }
 };
