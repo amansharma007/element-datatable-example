@@ -1,6 +1,7 @@
 export const STUDENTS_DATA = [
   {
     name: "John",
+    age: 21,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -8,6 +9,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Janet",
+    age: 25,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -15,6 +17,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Rami",
+    age: 31,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -22,6 +25,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Sylvestor",
+    age: 28,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -29,6 +33,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Gweneth",
+    age: 20,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -36,6 +41,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Rakesh",
+    age: 27,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -43,6 +49,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Amitabh",
+    age: 30,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -50,6 +57,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Rosy",
+    age: 40,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -57,6 +65,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Rhea",
+    age: 18,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -64,6 +73,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Sailesh",
+    age: 19,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -71,6 +81,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Rohit",
+    age: 32,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
@@ -78,6 +89,7 @@ export const STUDENTS_DATA = [
   },
   {
     name: "Alan",
+    age: 30,
     state: "California",
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",

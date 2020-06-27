@@ -5,6 +5,7 @@
         <el-table :data="studentsData" @selection-change="handleSelectionChange" height="400">
           <el-table-column type="selection"></el-table-column>
           <el-table-column prop="name" label="Name"></el-table-column>
+          <el-table-column sortable prop="age" label="Age" width="80"></el-table-column>
           <el-table-column label="Address Details">
             <el-table-column prop="state" label="State"></el-table-column>
             <el-table-column prop="city" label="City"></el-table-column>
