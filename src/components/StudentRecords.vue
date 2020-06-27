@@ -4,7 +4,12 @@
       <el-col>
         <el-table :data="studentsData" height="400">
           <el-table-column prop="name" label="Name"></el-table-column>
-
+          <el-table-column label="Address Details">
+            <el-table-column prop="state" label="State"></el-table-column>
+            <el-table-column prop="city" label="City"></el-table-column>
+            <el-table-column prop="address" label="Address"></el-table-column>
+            <el-table-column prop="zip" label="Zip"></el-table-column>
+          </el-table-column>
         </el-table>
       </el-col>
     </el-row>
