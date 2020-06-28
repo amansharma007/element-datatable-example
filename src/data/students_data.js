@@ -6,7 +6,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 July'
   },
   {
     name: "Janet",
@@ -15,7 +17,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/women/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Rami",
@@ -24,7 +28,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Sylvestor",
@@ -33,7 +39,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Gweneth",
@@ -42,7 +50,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/women/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Rakesh",
@@ -51,7 +61,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Amitabh",
@@ -60,7 +72,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Rosy",
@@ -69,7 +83,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/women/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Rhea",
@@ -78,7 +94,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Unemployed'
+    tag: 'Unemployed',
+    img: 'https://randomuser.me/api/portraits/women/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Sailesh",
@@ -87,7 +105,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Rohit",
@@ -96,7 +116,9 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
   {
     name: "Alan",
@@ -105,6 +127,8 @@ export const STUDENTS_DATA = [
     city: "Los Angeles",
     address: "No. 189, Grove St, Los Angeles",
     zip: "CA 90036",
-    tag: 'Employed'
+    tag: 'Employed',
+    img: 'https://randomuser.me/api/portraits/men/60.jpg',
+    birthday: '17 Jan'
   },
 ];
