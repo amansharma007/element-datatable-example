@@ -3,7 +3,7 @@
     <el-row style="border: 1px solid lightgray;">
       <el-col>
         <el-table
-          :data="studentsData"
+          :data="getSearchedStudents"
           :default-sort="{prop: 'age', order: 'ascending'}"
           @selection-change="handleSelectionChange"
           height="400"
@@ -31,6 +31,18 @@
               >{{scope.row.tag}}</el-tag>
             </template>
           </el-table-column>
+          <el-table-column width="180" align="center">
+            <template slot="header">
+              <el-input v-model="search" size="mini" placeholder="Type to search" />
+            </template>
+            <template slot-scope="scope">
+              <el-button
+                size="mini"
+                type="danger"
+                @click="handleDelete(scope.$index)"
+              >Delete</el-button>
+            </template>
+          </el-table-column>
         </el-table>
       </el-col>
     </el-row>
@@ -45,15 +57,25 @@ export default {
   data() {
     return {
       studentsData: STUDENTS_DATA,
-      selectedStudents: []
+      selectedStudents: [],
+      search: ''
     };
+  },
+  computed: {
+    getSearchedStudents() {
+      let search = this.search
+      return this.studentsData.filter(data => search ? data.name.toLowerCase().includes(search.toLowerCase()): true )
+    }
   },
   methods: {
     handleSelectionChange(val) {
       this.selectedStudents = val;
     },
+    handleDelete (index) {
+      this.studentsData.splice(index, 1)
+    },
     filterTag(value, row) {
-      return row.tag === value
+      return row.tag === value;
     }
   }
 };
