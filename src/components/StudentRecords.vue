@@ -6,7 +6,7 @@
           :data="getSearchedStudents"
           :default-sort="{prop: 'age', order: 'ascending'}"
           @selection-change="handleSelectionChange"
-          height="400"
+          height="550"
         >
           <el-table-column type="expand">
             <template slot-scope="props">
