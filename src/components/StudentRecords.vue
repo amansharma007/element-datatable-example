@@ -8,6 +8,21 @@
           @selection-change="handleSelectionChange"
           height="400"
         >
+          <el-table-column type="expand">
+            <template slot-scope="props">
+              <el-row>
+                <el-col :span="4">
+                  <img :src="props.row.img" />
+                </el-col>
+                <el-col :span="18">
+                  <p>Name: {{ props.row.name }}</p>
+                  <p>State: {{ props.row.state }}</p>
+                  <p>Birthday: {{ props.row.birthday }}</p>
+                  <p>Employment Status: {{ props.row.tag }}</p>
+                </el-col>
+              </el-row>
+            </template>
+          </el-table-column>
           <el-table-column type="selection"></el-table-column>
           <el-table-column prop="name" label="Name"></el-table-column>
           <el-table-column sortable prop="age" label="Age" width="80"></el-table-column>
@@ -36,11 +51,7 @@
               <el-input v-model="search" size="mini" placeholder="Type to search" />
             </template>
             <template slot-scope="scope">
-              <el-button
-                size="mini"
-                type="danger"
-                @click="handleDelete(scope.$index)"
-              >Delete</el-button>
+              <el-button size="mini" type="danger" @click="handleDelete(scope.$index)">Delete</el-button>
             </template>
           </el-table-column>
         </el-table>
@@ -58,21 +69,23 @@ export default {
     return {
       studentsData: STUDENTS_DATA,
       selectedStudents: [],
-      search: ''
+      search: ""
     };
   },
   computed: {
     getSearchedStudents() {
-      let search = this.search
-      return this.studentsData.filter(data => search ? data.name.toLowerCase().includes(search.toLowerCase()): true )
+      let search = this.search;
+      return this.studentsData.filter(data =>
+        search ? data.name.toLowerCase().includes(search.toLowerCase()) : true
+      );
     }
   },
   methods: {
     handleSelectionChange(val) {
       this.selectedStudents = val;
     },
-    handleDelete (index) {
-      this.studentsData.splice(index, 1)
+    handleDelete(index) {
+      this.studentsData.splice(index, 1);
     },
     filterTag(value, row) {
       return row.tag === value;
