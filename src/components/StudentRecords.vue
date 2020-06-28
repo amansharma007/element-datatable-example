@@ -17,7 +17,13 @@
             <el-table-column prop="address" label="Address"></el-table-column>
             <el-table-column prop="zip" label="Zip"></el-table-column>
           </el-table-column>
-          <el-table-column prop="tag" label="Tag" width="120">
+          <el-table-column
+            prop="tag"
+            label="Tag"
+            width="120"
+            :filters="[{ text: 'Employed', value: 'Employed' }, { text: 'Unemployed', value: 'Unemployed' }]"
+            :filter-method="filterTag"
+          >
             <template slot-scope="scope">
               <el-tag
                 :type="scope.row.tag === 'Employed' ? 'success' : 'primary'"
@@ -45,6 +51,9 @@ export default {
   methods: {
     handleSelectionChange(val) {
       this.selectedStudents = val;
+    },
+    filterTag(value, row) {
+      return row.tag === value
     }
   }
 };
